@@ -1,34 +1,27 @@
 ---
-layout: default
+layout: compress
 ---
 
-{% if site.data.menu %}
-  {% include menu.html %}
-{% else %}
-  {% include back-link.html %}
-{% endif %}
+{% include head.html %}
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
+    <main>
 
-  {% if page.title != "" %}
-    <h1 class="post-title divided p-name" itemprop="name headline">
-      {{ page.title }}
-    </h1>
-  {% endif %}
+        {% include header.html %}
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+        <article>
+            <h1>{{ page.title }}</h1>
+            <p class="subtitle">{{ page.date | date: "%b %-d, %Y" }}</p>
 
-  <div class="post-meta">
-    {% if page.author %}
-      <div itemprop="author">{{ page.author }}</div>
-    {% endif %}
-    <time class="post-date dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>
-  </div>
+            {{ page.content }}
 
-  {% if site.disqus.shortname %}
-    {% include disqus-comments.html %}
-  {% endif %}
+            <hr>
 
-</article>
+            <p><a href="{{ site.baseurl }}/articles">← Back to all articles</a></p>
+        </article>
+
+    </main>
+
+    {% include footer-post.html %}
+
+</body>
+</html>
