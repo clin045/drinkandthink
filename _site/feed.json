@@ -1,13 +1,30 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Drink &amp; Think",
-    "home_page_url": "https://et-jekyll.netlify.app/",
-    "feed_url": "https://et-jekyll.netlify.app/feed.json",
+    "home_page_url": "http://0.0.0.0:4000/",
+    "feed_url": "http://0.0.0.0:4000/feed.json",
     "description": "Philosphy, neuroscience, food, drink",
     "icon": "",
-    "favicon": "https://et-jekyll.netlify.app/favicon.ico",
+    "favicon": "http://0.0.0.0:4000/favicon.ico",
     "expired": false,
     "items": [
+    
+      
+        
+        
+        {
+            "id": "http://0.0.0.0:4000/2021/08/24/meeting1/",
+            "title": "Meeting #1 - Prolegomena pt. 1",
+            "content_text": "For our first meeting we’ll be reading pages (TBD) - (TBD) of Kant’s Prolegomena to Any Future Metaphysics.\n\nDownload\n",
+            "content_html": "<p>For our first meeting we’ll be reading pages (TBD) - (TBD) of Kant’s <em>Prolegomena to Any Future Metaphysics</em>.</p>\n\n<p><a href=\"/files/prolegomena.pdf\">Download</a></p>\n",
+            "url": "http://0.0.0.0:4000/2021/08/24/meeting1/",
+            "date_published": "2021-08-24T00:00:00-04:00",
+            "date_modified": "2021-08-24T00:00:00-04:00",
+            "author": {
+                "name": ""
+            }
+        }
+        
     
     ]
 }
