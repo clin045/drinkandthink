@@ -15,8 +15,8 @@
         {
             "id": "http://0.0.0.0:4000/2021/08/24/meeting1/",
             "title": "Meeting #1 - Prolegomena pt. 1",
-            "content_text": "For our first meeting we’ll be reading pages (TBD) - (TBD) of Kant’s Prolegomena to Any Future Metaphysics.\n\nDownload\n",
-            "content_html": "<p>For our first meeting we’ll be reading pages (TBD) - (TBD) of Kant’s <em>Prolegomena to Any Future Metaphysics</em>.</p>\n\n<p><a href=\"/files/prolegomena.pdf\">Download</a></p>\n",
+            "content_text": "For our first meeting we’ll be reading pages 1 - 31 (“Preface” through “Prolegomena General Question”) of Kant’s Prolegomena to Any Future Metaphysics.\n\nLocation: We’ll meet at Tatte Bakery &amp; Cafe, Fenway and walk over Ramler park across the street.\n\nDownload\n",
+            "content_html": "<p>For our first meeting we’ll be reading pages 1 - 31 (“Preface” through “Prolegomena General Question”) of Kant’s <em>Prolegomena to Any Future Metaphysics</em>.</p>\n\n<p>Location: We’ll meet at <a href=\"https://g.page/tatte-fenway?share\">Tatte Bakery &amp; Cafe, Fenway</a> and walk over Ramler park across the street.</p>\n\n<p><a href=\"/files/prolegomena.pdf\">Download</a></p>\n",
             "url": "http://0.0.0.0:4000/2021/08/24/meeting1/",
             "date_published": "2021-08-24T00:00:00-04:00",
             "date_modified": "2021-08-24T00:00:00-04:00",
